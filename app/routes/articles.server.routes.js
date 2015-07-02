@@ -5,9 +5,10 @@
  */
 var users = require('../../app/controllers/users'),
 	articles = require('../../app/controllers/articles');
-var multer =require('multer');
-var fileHandler =require('../../app/controllers/local-file-handle');
-var multerTemp=multer({ dest: config.filesTemp, limits: {
+var config = require('../../config/config'),
+	multer =require('multer'),
+	fileHandler =require('../../app/controllers/local-file-handle'),
+	multerTemp=multer({ dest: config.filesTemp, limits: {
 	fieldNameSize: 255,
 	fields: 7,
 	files: 1,

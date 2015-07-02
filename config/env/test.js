@@ -2,6 +2,8 @@
 
 module.exports = {
 	db: 'mongodb://localhost/fileuploaddemo-test',
+	filesUpload:'../files/upload/',
+	filesTemp:'../files/temp/',
 	port: 3001,
 	app: {
 		title: 'FileUploadDemo - Test Environment'

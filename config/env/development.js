@@ -2,6 +2,8 @@
 
 module.exports = {
 	db: 'mongodb://localhost/fileuploaddemo-dev',
+	filesUpload:'../files/upload/',
+	filesTemp:'../files/temp/',
 	app: {
 		title: 'FileUploadDemo - Development Environment'
 	},
